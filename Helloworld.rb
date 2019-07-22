@@ -1,8 +1,7 @@
 class Helloworld < Formula
   desc "an elf executable (golang) that prints hello world"
-  homepage "https://github.com/viggin543/opentikva"
-  version "0.3"
-  sha256 "1a4c78930ec0fd12ec475aae9424a3f5d2fe64096c8814f1a70a9f98252cee16"
+  homepage "https://github.com/avivgor/my_home_brew"
+  version "0.4"
 
   url "https://opentikva.s3.amazonaws.com/hello", :using => :curl
 
@@ -12,10 +11,10 @@ class Helloworld < Formula
     system("echo","installing hello world...")
     system("pwd")
 
-    puts `echo 'so it beggins...'`
-    
+    puts `echo 'so it beggins. hahaha...'`
+
     puts bin
-    
+
     bin.install "hello"
   end
 
@@ -29,4 +28,3 @@ class Helloworld < Formula
 
 
 end
-
